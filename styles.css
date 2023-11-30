@@ -1,58 +1,71 @@
+/* Reset CSS */
+/* Add any global resets or adjustments here */
+
+/* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  .task-container {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .task-form {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .task-form input {
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  .task-form button {
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .task-form button:hover {
-    background-color: #0056b3;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+}
+
+/* Container styles */
+.unique-task-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.unique-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.unique-task-form input {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.unique-task-form button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.unique-task-form button:hover {
+  background-color: #27ae60;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+}
+
+li:last-child {
+  border-bottom: none;
+}

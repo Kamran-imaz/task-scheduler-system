@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Task Scheduler</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="task-container">
-    <h1>Task Scheduler</h1>
-    <div class="task-form">
-      <input type="text" id="taskInput" placeholder="Enter task...">
-      <input type="datetime-local" id="dateTimeInput">
-      <button onclick="addTask()">Add Task</button>
-    </div>
-    <ul id="taskList"></ul>
-  </div>
 
-  <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Unique Task Manager</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="unique-task-container">
+        <h1>Unique Task Manager</h1>
+        <div class="unique-task-form">
+            <input type="text" id="uniqueTaskInput" placeholder="Enter a one-of-a-kind task...">
+            <input type="datetime-local" id="uniqueDateTimeInput">
+            <button onclick="handleUniqueTask()">Add Unique Task</button>
+        </div>
+        <ul id="uniqueTaskList"></ul>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
